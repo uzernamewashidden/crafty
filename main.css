@@ -1,0 +1,387 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #767676;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/******HEADER*******/
+
+.header {
+    background-color: #353434;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.header-wrap {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+.logo {
+    color: #ffffff;
+    font-family: "Amplify Personal Use Only", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.nav__link {
+    padding-right: 35px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav__link:hover {
+    color: #e5e5e5;
+}
+
+.nav-active {
+    display: block;
+}
+
+.socials {
+    padding: 6px 8px;
+    margin-left: 10px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.facebook {
+    padding: 6px 11px;
+}
+
+.facebook:hover { 
+    color: #3b5998;
+    border-color: #3b5998;
+}
+
+.twitter:hover {
+    color: #00acee;
+    border-color: #00acee;
+}
+
+
+.google:hover {
+    color: #ea4335;
+    border-color: #ea4335;
+}
+
+
+
+.s-help {
+    color: #353434;
+}
+
+
+/****** MAIN *******/
+
+.main {
+    background: url("img/header-bg.png") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.title-block {
+    width: 100%;
+    max-width: 570px;
+    margin-right: 15%;
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 50px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 1.75px;
+}
+
+
+/***** FEATURES ****/
+
+
+.features {
+    background-color: #f7f7f7;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 99px;
+}
+
+.features__item {
+    margin-top: 98px;
+    display: flex;
+    flex-basis: 30%;
+}
+
+
+
+.feature-icon {
+    margin-right: 39px;
+    border-radius: 50%;
+    background-color: #65bf95;
+}
+
+.features-title {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.88px;
+}
+
+.features-text {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+
+}
+
+.features-link {
+    color: #848484;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.arrow-right {
+    font-family: "Arial MT", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.34px;
+}
+
+
+/*****TESTIMONIALS****/
+
+
+.testimonials {
+    padding: 140px 0;
+}
+.testimonials-wrap {
+    text-align: center;
+}
+.testimonials-title {
+    margin-top: 0;
+    text-align: center;
+    color: #4f4f4f;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.testimonials-text {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.testimonials-name {
+    margin: 0;
+    padding: 43px 0 37px;
+    color: #696767;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    
+}
+
+.slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li {
+    background-color: #dadada;
+    margin-left: 10px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    
+}
+
+.slick-dots li.slick-active {
+    background-color: #bebebe;
+}
+
+.slick-dots button {
+    display: none;
+
+}
+
+/****** ABOUT ******/
+
+.about-container {
+    padding: 80px 0;
+    display: flex;
+    background: url("img/about-img.png") #3b3b3b no-repeat left;
+    background-size: 50% 100%;
+    justify-content: flex-end;
+}
+
+.col-50 {
+    flex-basis: 50%;
+    padding: 0 40px;
+}
+
+.about-title {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.about-text {
+    margin: 0;
+    padding: 40px 0;
+    color: #eeeeee;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+
+.about-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+
+
+/***** TAKE ACTION ****/
+
+
+.action-container {
+    padding: 100px 0;
+    text-align: center;
+}
+.action-title {
+    margin: 0;
+    padding-bottom: 20px;
+    color: #6b6b6b;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+}
+
+.action-subtitle {
+    margin: 0;
+    padding-bottom: 59px;
+    color: #7f7d7d;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+}
+
+.signup-btn {
+    padding: 20px 59px;
+    color: #ffffff;
+    background-color: #65bf95;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+.signup-btn:hover {
+    background: rgba(31, 153, 96, 0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+
+
+
+/***** FOOTER ******/
+
+.footer {
+    background-color: #f7f7f7;
+}
+
+.footer-container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    padding: 99px 0;
+    text-align: center;
+
+}
+
+.footer-logo {
+    display: block;
+    padding-bottom: 32px;
+    color: #3b3b3b;
+    font-family: "Amplify Personal Use Only", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+
+.copyright {
+    margin: 0;
+    color: #3b3b3b;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.34px;
+}
+
+.copyright-bolt {
+    font-weight: 700;
+}

@@ -1,6 +1,4 @@
 @media only screen and (min-width: 1600px) {
-
-
     .about-container {
         background-size: 35% 100%;
     }
@@ -8,13 +6,10 @@
     .col-50 {
         flex-basis: 65%;
     }
-
-
 }
 
+
 @media only screen and (max-width: 1199px) {
-
-
     .about-container {
         background-size: 55% 100%;
     }
@@ -22,13 +17,10 @@
     .col-50 {
         flex-basis: 45%;
     }
-
-
 }
 
 
 @media only screen and (max-width: 991px) {
-
     .nav__link {
         padding-right: 25px;
     }
@@ -43,8 +35,7 @@
     }
 
 
-    .about-container {
-        
+    .about-container {        
         padding: 20px 0;
         background: #3b3b3b;
     }
@@ -53,19 +44,15 @@
         margin: 40px auto;
         flex-basis: 90%;
         text-align: center;
-
     }
 
     .about-title {
         font-size: 25px;
     }
-
-
 }
 
+
 @media only screen and (max-width: 767px) {
-
-
     .burger {
         display: block;
     }
@@ -133,12 +120,10 @@
     .action-title {
         font-size: 25px;
     }
-
-
 }
 
-@media only screen and (max-width: 480px) {
 
+@media only screen and (max-width: 480px) {
     .socials {
         padding: 3px 4px;
         font-size: 12px;
@@ -153,7 +138,6 @@
         font-size: 28px;
     }
 
-
     .features-list {
         padding-bottom: 50px;
     }
@@ -165,7 +149,6 @@
     .text-container {
         text-align: center;
     }
-
 
     .testimonials {
         padding: 40px 0;
@@ -179,7 +162,6 @@
         font-size: 16px;
         letter-spacing: 0;
     }
-
 
     .about-container {
         padding: 40px 0;
@@ -202,16 +184,13 @@
     .footer-container {
         padding: 50px 0;
     }
-
 }
 
+
 @media only screen and (max-width : 320px) {
-
-
     .main-title {
         font-size: 20px;
     }
-
 
     .about-title {
         font-size: 16px;
@@ -229,5 +208,4 @@
         padding: 15px 30px;
         font-size: 16px;
     }
-
 }
